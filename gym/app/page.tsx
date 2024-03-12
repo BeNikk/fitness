@@ -1,7 +1,9 @@
-import Image from "next/image";
+import MainPage from "@/components/mainPage";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24"></main>
+    <main className="h-screen">
+      <MainPage />
+    </main>
   );
 }
