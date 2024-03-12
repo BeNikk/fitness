@@ -2,7 +2,7 @@ import MainPage from "@/components/mainPage";
 
 export default function Home() {
   return (
-    <main className="h-screen">
+    <main>
       <MainPage />
     </main>
   );

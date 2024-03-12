@@ -25,7 +25,7 @@ const items = [
 
 const Navbar = () => {
   return (
-    <div className="fixed top-4 h-16 w-full">
+    <div className="fixed top-4 h-4 w-full">
       <div className="flex flex-row justify-evenly items-center">
         <div className="cursor-pointer">
           <Image

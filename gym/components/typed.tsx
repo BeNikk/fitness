@@ -1,5 +1,3 @@
-// Subheading.js
-
 import React, { useEffect, useRef } from "react";
 import Typed from "typed.js";
 
@@ -21,7 +19,7 @@ const Subheading = () => {
     };
   }, []);
 
-  return <h2 className="text-3xl font-bold text-white" ref={typedRef}></h2>;
+  return <h2 className="text-6xl font-bold text-white" ref={typedRef}></h2>;
 };
 
 export default Subheading;
