@@ -17,9 +17,9 @@ const About = () => {
               <h1 className=" lg:text-white lg:font-bold lg:text-5xl">
                 About us
               </h1>
-              <hr className="bg-[#F9EF3C] mt-4 h-1 w-16"></hr>
+              <hr className="bg-[#F9EF3C] ml-8 mt-4 h-1 w-16"></hr>
               <div className="m-4 mt-5">
-                <p className="text-white font-semibold text-xl">
+                <p className="text-white font-semibold text-xl ml-8">
                   Welcome to Rajputana Gym, where fitness meets tradition.
                   Founded by passionate fitness enthusiast and owner, Rajputana
                   Gym offers a holistic approach to health and wellness. Nestled
