@@ -17,7 +17,7 @@ const MainPage = () => {
         <Subheading />
       </div>
       <div>
-        <button className="bg-[#F9EF3C] p-4 rounded-lg mt-20 lg:mt-4s text-black text-lg font-bold ml-[34%] lg:ml-[17%]">
+        <button className="bg-[#F9EF3C] p-4 rounded-lg mt-20 lg:mt-4s text-black text-lg font-bold ml-[34%] lg:ml-[15%]">
           Contact us
         </button>
       </div>
