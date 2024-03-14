@@ -1,6 +1,7 @@
 "use client";
 import About from "@/components/About";
 import Services from "@/components/Services";
+import Testimonials from "@/components/Testimonials";
 import MainPage from "@/components/mainPage";
 
 export default function Home() {
@@ -12,6 +13,9 @@ export default function Home() {
       </section>
       <section id="Services">
         <Services />
+      </section>
+      <section id="Testimonials">
+        <Testimonials />
       </section>
     </main>
   );
