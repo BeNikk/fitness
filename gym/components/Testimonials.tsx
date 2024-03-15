@@ -61,7 +61,7 @@ const Testimonials = () => {
     >
       <div>
         <div className="text-white font-bold text-5xl lg:ml-[35%] ml-[11%] ">
-          What people says about us
+          What people say about us
         </div>
         <div className="flex flex-col m-2 items-center justify-evenly lg:flex-row lg:gap-16 lg:ml-[7%] mr-6">
           <div>
