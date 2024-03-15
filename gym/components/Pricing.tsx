@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import {
   Card,
@@ -13,14 +14,14 @@ const Pricing = () => {
   return (
     <div>
       <div className="">
-        <p className="text-5xl text-[#F9EF3C] font-bold ml-[30%] lg:ml-[45%] mb-4">
+        <p className="text-5xl text-[#7F00FF] font-bold ml-[30%] lg:ml-[45%] mb-4">
           Pricing
         </p>
         <div className="flex flex-col lg:flex-row items-center justify-center mt-12 gap-12">
           <div>
             <Card className="min-w-64 min-h-72">
               <CardHeader>
-                <CardTitle>Rs 999/mo</CardTitle>
+                <CardTitle>Rs 4999/mo</CardTitle>
                 <CardDescription>Standard</CardDescription>
               </CardHeader>
               <CardContent>
@@ -28,41 +29,35 @@ const Pricing = () => {
                 <p>Shared Training</p>
                 <p>Diet Consultation</p>
               </CardContent>
-              <CardFooter>
-                <Button>Contact Us</Button>
-              </CardFooter>
+              <CardFooter></CardFooter>
             </Card>
           </div>
           <div>
             <Card className="min-w-64 min-h-72">
               <CardHeader>
-                <CardTitle>Rs 5k/mo</CardTitle>
-                <CardDescription>Personal Training</CardDescription>
+                <CardTitle>Rs 40k/12mo</CardTitle>
+                <CardDescription>Popular</CardDescription>
               </CardHeader>
               <CardContent>
                 <p>Personal Training</p>
                 <p>Diet consultation</p>
                 <p>Nutrition counselling</p>
               </CardContent>
-              <CardFooter>
-                <Button>Contact Us</Button>
-              </CardFooter>
+              <CardFooter></CardFooter>
             </Card>
           </div>
           <div>
-            <Card className="min-w-64 min-h-72">
-              <CardHeader>
-                <CardTitle>1600/mo</CardTitle>
-                <CardDescription>Couple Training</CardDescription>
+            <Card className="min-w-64 min-h-72 ">
+              <CardHeader className="">
+                <CardTitle>27k/6mo</CardTitle>
+                <CardDescription className="">Special</CardDescription>
               </CardHeader>
-              <CardContent>
+              <CardContent className="">
                 <p>Group training</p>
                 <p>Shared Training</p>
                 <p>Diet Consultation</p>
               </CardContent>
-              <CardFooter>
-                <Button>Contact Us</Button>
-              </CardFooter>
+              <CardFooter></CardFooter>
             </Card>
           </div>
         </div>

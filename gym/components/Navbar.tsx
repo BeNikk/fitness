@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 
 const items = [
@@ -25,23 +26,17 @@ const items = [
 
 const Navbar = () => {
   return (
-    <div className="top-6 h-4 w-full">
+    <div className="mt-4 h-4 w-full">
       <div className="flex flex-row justify-evenly items-center">
         <div className="cursor-pointer">
-          <Image
-            src="/dumbbel-logo.svg"
-            alt="dumbbel logo"
-            height={36}
-            width={36}
-            priority={true}
-          />
+          <p className="text-[#7F00FF] font-bold text-lg  ">SetFitness</p>
         </div>
         <div className="hidden lg:flex lg:flex-row lg:gap-20">
           {items.map((item) => {
             return (
               <div key={item.key}>
                 <a href={`#${item.title}`}>
-                  <p className="text-white font-bold hover:text-[#F9EF3C]">
+                  <p className="text-white font-bold hover:text-[#7F00FF]">
                     {item.title}
                   </p>
                 </a>

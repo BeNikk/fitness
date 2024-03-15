@@ -1,3 +1,4 @@
+"use client";
 import { Card, CardContent, CardFooter, CardTitle } from "@/components/ui/card";
 import {
   Carousel,
@@ -65,7 +66,7 @@ const Testimonials = () => {
         <div className="flex flex-col m-2 items-center justify-evenly lg:flex-row lg:gap-16 lg:ml-[7%] mr-6">
           <div>
             <div className="mt-8 flex flex-col ">
-              <div className=" lg:text-xl lg:font-semibold lg:text-[#F9EF3C] lg:mb-4"></div>
+              <div className=" lg:text-xl lg:font-semibold lg:text-[#7F00FF] lg:mb-4"></div>
 
               <div className="m-4 mt-5 ml-[10%] lg:ml-[35%]">
                 <Carousel className="w-[400px] lg:w-[600px]">
@@ -80,7 +81,7 @@ const Testimonials = () => {
                                 <AvatarFallback>CN</AvatarFallback>
                               </Avatar>
 
-                              <p className="mt-2 m-2 font-bold p-4 text-3xl lg:text-3xl text-[#F9EF3C]">
+                              <p className="mt-2 m-2 font-bold p-4 text-3xl lg:text-3xl text-[#7F00FF]">
                                 {index.title}
                               </p>
                             </CardTitle>

@@ -1,3 +1,4 @@
+"use client";
 import {
   Card,
   CardContent,
@@ -38,7 +39,7 @@ const ServicesCard = () => {
         return (
           <Card key={service.key} className=" bg-black mb-4">
             <CardHeader>
-              <CardTitle className="text-[#F9EF3C]">{service.title}</CardTitle>
+              <CardTitle className="text-[#7F00FF]">{service.title}</CardTitle>
             </CardHeader>
             <CardContent className="text-white">
               <p className="font-bold">{service.description}</p>

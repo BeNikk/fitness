@@ -9,17 +9,20 @@ const MainPage = () => {
       style={{ backgroundImage: 'url("/main.jpg")' }}
     >
       <Navbar />
-      <div className="ml-[30%] mt-[23%]  lg:ml-[15%] lg:mt-[12%] mr-[3%]">
-        <p className="text-7xl font-bold text-[#F9EF3C]">Body Garage</p>
+      <div className="ml-[25%] mt-[20%]  lg:ml-[15%] lg:mt-[12%] mr-[3%]">
+        <p className="text-7xl font-bold text-[#7F00FF] ">Step-Up Fitness</p>
       </div>
 
-      <div className="h-[100px] ml-[30%] lg:ml-[15%] mt-12">
+      <div className="h-[100px] ml-[25%] lg:ml-[15%] mt-12">
         <Subheading />
       </div>
       <div>
-        <button className="bg-[#F9EF3C] p-4 rounded-lg mt-20 lg:mt-4s text-black text-lg font-bold ml-[34%] lg:ml-[15%]">
+        <a
+          href="/#Contact us"
+          className="bg-[#7F00FF] text-white p-4 rounded-lg mt-20 lg:mt-4 text-lg font-bold ml-[34%] lg:ml-[15%]"
+        >
           Contact us
-        </button>
+        </a>
       </div>
     </div>
   );
