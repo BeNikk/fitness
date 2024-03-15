@@ -35,7 +35,7 @@ const Contact = () => {
         <p className="text-white text-3xl font-semibold">setfitness.ramvihar</p>
       </a>
       <a
-        className="ml-[10%] lg:ml-[30%] w-96 rounded-lg mt-20 flex flex-row gap-4 items-center bg-green-500"
+        className="ml-[10%] lg:ml-[30%] lg:w-96 w-52 rounded-lg mt-20 flex flex-row gap-4 items-center bg-green-500"
         href="https://wa.me/918130016009"
       >
         <img
