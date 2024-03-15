@@ -10,7 +10,7 @@ const MainPage = () => {
     >
       <Navbar />
       <div className="ml-[25%] mt-[20%]  lg:ml-[15%] lg:mt-[12%] mr-[3%]">
-        <p className="text-7xl font-bold text-[#7F00FF] ">Step-Up Fitness</p>
+        <p className="text-7xl font-bold text-[#7F00FF] ">Set Fitness</p>
       </div>
 
       <div className="h-[100px] ml-[25%] lg:ml-[15%] mt-12">
