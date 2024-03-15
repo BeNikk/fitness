@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div className=" mt-20">
       <div>
-        <p className="text-[#7F00FF] font-bold text-5xl ml-[20%] lg:ml-[44%]">
+        <p className="text-[#7F00FF] font-bold text-5xl ml-[15%] lg:ml-[44%]">
           Contact Us
         </p>
       </div>
