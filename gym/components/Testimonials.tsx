@@ -54,9 +54,12 @@ const test = [
 ];
 const Testimonials = () => {
   return (
-    <div className="">
+    <div
+      className="bg-contain bg-no-repeat bg-center"
+      style={{ backgroundImage: 'url("/main.jpg")' }}
+    >
       <div>
-        <div className="text-white font-bold text-5xl lg:ml-[30%] ml-[15%] ">
+        <div className="text-white font-bold text-5xl lg:ml-[35%] ml-[11%] ">
           What people says about us
         </div>
         <div className="flex flex-col m-2 items-center justify-evenly lg:flex-row lg:gap-16 lg:ml-[7%] mr-6">
@@ -64,7 +67,7 @@ const Testimonials = () => {
             <div className="mt-8 flex flex-col ">
               <div className=" lg:text-xl lg:font-semibold lg:text-[#F9EF3C] lg:mb-4"></div>
 
-              <div className="m-4 mt-5 ml-[10%] lg:ml-[26%]">
+              <div className="m-4 mt-5 ml-[10%] lg:ml-[35%]">
                 <Carousel className="w-[400px] lg:w-[600px]">
                   <CarouselContent>
                     {test.map((index) => (
