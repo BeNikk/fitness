@@ -9,11 +9,11 @@ const MainPage = () => {
       style={{ backgroundImage: 'url("/main.jpg")' }}
     >
       <Navbar />
-      <div className="ml-[25%] mt-[20%]  lg:ml-[15%] lg:mt-[12%] mr-[3%]">
+      <div className="ml-[20%] mt-[20%]  lg:ml-[15%] lg:mt-[12%] mr-[3%]">
         <p className="text-7xl font-bold text-[#7F00FF] ">Set Fitness</p>
       </div>
 
-      <div className="h-[100px] ml-[25%] lg:ml-[15%] mt-12">
+      <div className="h-[100px] ml-[20%] lg:ml-[15%] mt-12">
         <Subheading />
       </div>
       <div>
