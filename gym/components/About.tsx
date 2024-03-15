@@ -20,16 +20,16 @@ const About = () => {
             <hr className="bg-[#7F00FF] ml-8 mt-4 h-1 w-16"></hr>
             <div className="m-4 mt-5">
               <p className="text-white font-semibold text-xl ml-8 text-justify">
-                Welcome to Rajputana Gym, where fitness meets tradition. Founded
+                Welcome to Set Fitness, where fitness meets tradition. Founded
                 by passionate fitness enthusiast and owner, Rajputana Gym offers
                 a holistic approach to health and wellness. Nestled in the heart
                 of our community, we pride ourselves on blending modern fitness
-                techniques with the timeless values of Rajputana heritage. Our
+                techniques with the timeless values of our heritage. Our
                 experienced trainers provide personalized workout plans tailored
                 to your goals, ensuring every session is both challenging and
                 rewarding. With state-of-the-art equipment and a supportive
                 atmosphere, we strive to empower every individual on their
-                fitness journey. Join us at Rajputana Gym and embrace a
+                fitness journey. Join us at Set Fitness Gym and embrace a
                 healthier lifestyle rooted in tradition and vitality.
               </p>
             </div>

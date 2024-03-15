@@ -13,7 +13,7 @@ const test = [
   {
     title: "Strength and Empowerment",
     description:
-      "Joining Rajputana Gym has been a life-changing experience. The trainers here don't just focus on physical strength but also empower you mentally. Their personalized training programs helped me surpass my limits, both in the gym and in life",
+      "Joining Set Fitness Gym has been a life-changing experience. The trainers here don't just focus on physical strength but also empower you mentally. Their personalized training programs helped me surpass my limits, both in the gym and in life",
     person: "Nikhil Bhatt",
     personDescription: "College Student",
     img: "/gymboy1.jpg",
@@ -21,7 +21,7 @@ const test = [
   {
     title: " Community and Support",
     description:
-      "At Rajputana Gym, it's not just about lifting weights; it's about lifting each other up. The sense of community here is incredible. Whether you're a beginner or an experienced athlete, you'll find unwavering support and encouragement from both the trainers and fellow members.",
+      "At Set Fitness Gym, it's not just about lifting weights; it's about lifting each other up. The sense of community here is incredible. Whether you're a beginner or an experienced athlete, you'll find unwavering support and encouragement from both the trainers and fellow members.",
     person: "Reeta",
     personDescription: "Home maker",
     img: "/girl3.jpg",
@@ -30,7 +30,7 @@ const test = [
   {
     title: " Results-Driven Approach",
     description:
-      "I've tried many gyms before, but none compare to Rajputana Gym. The trainers here are dedicated to helping you achieve your goals. With their expert guidance and tailored workout plans, I've seen incredible results in a short amount of time. It's not just a gym; it's a place where dreams become realities.",
+      "I've tried many gyms before, but none compare to Set Fitness Gym. The trainers here are dedicated to helping you achieve your goals. With their expert guidance and tailored workout plans, I've seen incredible results in a short amount of time. It's not just a gym; it's a place where dreams become realities.",
     person: "Sagar Sharma",
     personDescription: "Software Engineer",
     img: "/gymboy2.jpg",
@@ -38,7 +38,7 @@ const test = [
   {
     title: "Cleanliness and Professionalism",
     description:
-      "Cleanliness and professionalism are top priorities at Rajputana Gym. From the sparkling clean facilities to the friendly staff, every aspect of the gym exudes professionalism. I feel safe and comfortable working out here, knowing that hygiene and customer satisfaction are taken seriously",
+      "Cleanliness and professionalism are top priorities at Set Fitness Gym. From the sparkling clean facilities to the friendly staff, every aspect of the gym exudes professionalism. I feel safe and comfortable working out here, knowing that hygiene and customer satisfaction are taken seriously",
     person: "Niharika",
     personDescription: "Consultant",
     img: "/girl2.jpg",
@@ -47,7 +47,7 @@ const test = [
   {
     title: "Motivation and Inspiration",
     description:
-      "Rajputana Gym isn't just a place to exercise; it's a source of motivation and inspiration. The positive energy and enthusiasm from the trainers are contagious, pushing you to be the best version of yourself. I've never felt more motivated to achieve my fitness goals than I do here",
+      "Set Fitness Gym isn't just a place to exercise; it's a source of motivation and inspiration. The positive energy and enthusiasm from the trainers are contagious, pushing you to be the best version of yourself. I've never felt more motivated to achieve my fitness goals than I do here",
     person: "Vijendra chauhan",
     personDescription: "Police inspector(retired)",
     img: "/boy3.jpg",
