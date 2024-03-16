@@ -14,8 +14,8 @@ const test = [
     title: "Strength and Empowerment",
     description:
       "Joining Set Fitness Gym has been a life-changing experience. The trainers here don't just focus on physical strength but also empower you mentally. Their personalized training programs helped me surpass my limits, both in the gym and in life",
-    person: "Nikhil Bhatt",
-    personDescription: "College Student",
+    person: "Nikhil",
+    personDescription: "Student",
     img: "/gymboy1.jpg",
   },
   {
@@ -31,7 +31,7 @@ const test = [
     title: " Results-Driven Approach",
     description:
       "I've tried many gyms before, but none compare to Set Fitness Gym. The trainers here are dedicated to helping you achieve your goals. With their expert guidance and tailored workout plans, I've seen incredible results in a short amount of time. It's not just a gym; it's a place where dreams become realities.",
-    person: "Sagar Sharma",
+    person: "Sagar",
     personDescription: "Software Engineer",
     img: "/gymboy2.jpg",
   },
@@ -48,8 +48,8 @@ const test = [
     title: "Motivation and Inspiration",
     description:
       "Set Fitness Gym isn't just a place to exercise; it's a source of motivation and inspiration. The positive energy and enthusiasm from the trainers are contagious, pushing you to be the best version of yourself. I've never felt more motivated to achieve my fitness goals than I do here",
-    person: "Vijendra chauhan",
-    personDescription: "Police inspector(retired)",
+    person: "Vijendra",
+    personDescription: "Teacher",
     img: "/boy3.jpg",
   },
 ];
@@ -76,10 +76,18 @@ const Testimonials = () => {
                         <div className="">
                           <Card className="bg-black w-[350px] lg:w-[400px] m-4 ml-2 h-auto lg:m-8">
                             <CardTitle>
-                              <Avatar className="mt-4 w-20 h-20 ml-[10%] lg:ml-4">
-                                <AvatarImage src={index.img} className="" />
-                                <AvatarFallback>CN</AvatarFallback>
-                              </Avatar>
+                              <div className="flex flex-row items-center gap-4">
+                                <Avatar className="mt-4 w-20 h-20 ml-[10%] lg:ml-4">
+                                  <AvatarImage src={index.img} className="" />
+                                  <AvatarFallback>CN</AvatarFallback>
+                                </Avatar>
+                                <div className="text-white text-xl font-semibold">
+                                  {index.person}
+                                </div>
+                                <div className="text-white text-sm">
+                                  {index.personDescription}
+                                </div>
+                              </div>
 
                               <p className="mt-2 m-2 font-bold p-4 text-3xl lg:text-3xl text-[#7F00FF]">
                                 {index.title}
@@ -90,16 +98,7 @@ const Testimonials = () => {
                                 {index.description}
                               </span>
                             </CardContent>
-                            <CardFooter>
-                              <div className="text-white text-xl font-semibold">
-                                {index.person}
-                              </div>
-                              <br />
-                              sss
-                              <div className="text-white text-md">
-                                {index.personDescription}
-                              </div>
-                            </CardFooter>
+                            <CardFooter></CardFooter>
                           </Card>
                         </div>
                       </CarouselItem>
