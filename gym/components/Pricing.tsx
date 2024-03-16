@@ -25,7 +25,7 @@ const Pricing = () => {
         <p className="text-5xl text-[#7F00FF] font-bold ml-[30%] lg:ml-[45%] mb-4">
           Pricing
         </p>
-        <Carousel className="ml-[7%]">
+        <Carousel className="ml-[7%] mr-4">
           <CarouselContent>
             <CarouselItem className="md:basis-1/2 lg:basis-1/3">
               <Card className="min-w-64 min-h-72 max-w-96 ">
