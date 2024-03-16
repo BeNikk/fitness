@@ -76,6 +76,16 @@ const Testimonials = () => {
                         <div className="">
                           <Card className="bg-black w-[350px] lg:w-[400px] m-4 ml-2 h-auto lg:m-8">
                             <CardTitle>
+                              <p className="mt-2 m-2 font-bold p-4 text-3xl lg:text-3xl text-[#7F00FF]">
+                                {index.title}
+                              </p>
+                            </CardTitle>
+                            <CardContent className="flex aspect-square items-center justify-center p-6">
+                              <span className="text-lg font-semibold text-white">
+                                {index.description}
+                              </span>
+                            </CardContent>
+                            <CardFooter>
                               <div className="flex flex-row items-center gap-4">
                                 <Avatar className="mt-4 w-20 h-20 ml-[10%] lg:ml-4">
                                   <AvatarImage src={index.img} className="" />
@@ -88,17 +98,7 @@ const Testimonials = () => {
                                   {index.personDescription}
                                 </div>
                               </div>
-
-                              <p className="mt-2 m-2 font-bold p-4 text-3xl lg:text-3xl text-[#7F00FF]">
-                                {index.title}
-                              </p>
-                            </CardTitle>
-                            <CardContent className="flex aspect-square items-center justify-center p-6">
-                              <span className="text-lg font-semibold text-white">
-                                {index.description}
-                              </span>
-                            </CardContent>
-                            <CardFooter></CardFooter>
+                            </CardFooter>
                           </Card>
                         </div>
                       </CarouselItem>

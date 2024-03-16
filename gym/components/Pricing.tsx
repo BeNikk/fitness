@@ -25,10 +25,10 @@ const Pricing = () => {
         <p className="text-5xl text-[#7F00FF] font-bold ml-[30%] lg:ml-[45%] mb-4">
           Pricing
         </p>
-        <Carousel className="ml-[7%] mr-4">
+        <Carousel className="ml-[10%]">
           <CarouselContent>
-            <CarouselItem className="md:basis-1/2 lg:basis-1/3">
-              <Card className="min-w-64 min-h-72 max-w-96 ">
+            <CarouselItem className=" basis-1/2  md:basis-1/2 lg:basis-1/3 ">
+              <Card className="min-w-64 min-h-72 max-w-72 ">
                 <CardHeader>
                   <CardTitle className="">Rs 4999/mo</CardTitle>
                   <CardDescription className="">Standard</CardDescription>
@@ -41,8 +41,8 @@ const Pricing = () => {
                 <CardFooter></CardFooter>
               </Card>
             </CarouselItem>
-            <CarouselItem className="md:basis-1/2 lg:basis-1/3 ">
-              <Card className="min-w-64 min-h-72 max-w-96">
+            <CarouselItem className="basis-1/2 lg:basis-1/3  ">
+              <Card className="min-w-64 min-h-72 max-w-72">
                 <CardHeader>
                   <CardTitle>Rs 40k/12mo</CardTitle>
                   <CardDescription>Popular</CardDescription>
@@ -55,8 +55,8 @@ const Pricing = () => {
                 <CardFooter></CardFooter>
               </Card>
             </CarouselItem>
-            <CarouselItem className="md:basis-1/2 lg:basis-1/3 ">
-              <Card className="min-w-64 min-h-72 max-w-96 ">
+            <CarouselItem className="basis-1/2 lg:basis-1/3">
+              <Card className="min-w-64 min-h-72 max-w-72 ">
                 <CardHeader className="">
                   <CardTitle>27k/6mo</CardTitle>
                   <CardDescription className="">Special</CardDescription>
@@ -70,6 +70,7 @@ const Pricing = () => {
               </Card>
             </CarouselItem>
           </CarouselContent>
+          <CarouselNext />
         </Carousel>
       </div>
     </div>
